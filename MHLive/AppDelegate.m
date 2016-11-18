@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MhLobbyViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UINavigationController *nav = [[UINavigationController alloc] init];
+    [nav pushViewController:[[MhLobbyViewController alloc] init] animated:NO];
+    self.window = ({
+        UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        window.rootViewController = nav;
+        window.backgroundColor = [UIColor whiteColor];
+        window;
+    });
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
