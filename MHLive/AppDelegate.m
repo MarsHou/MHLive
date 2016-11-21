@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MhLobbyViewController.h"
+#import <PLCameraStreamingKit/PLCameraStreamingKit.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [PLStreamingEnv initEnv];
     UINavigationController *nav = [[UINavigationController alloc] init];
     [nav pushViewController:[[MhLobbyViewController alloc] init] animated:NO];
     self.window = ({

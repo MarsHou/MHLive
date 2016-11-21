@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4195AB0C1DE296F900104A32 /* MhBroadcastRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4195AB0B1DE296F900104A32 /* MhBroadcastRoomViewController.m */; };
 		41F89F2B1DDF111D0065E424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F89F2A1DDF111D0065E424 /* main.m */; };
 		41F89F2E1DDF111D0065E424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F89F2D1DDF111D0065E424 /* AppDelegate.m */; };
 		41F89F311DDF111D0065E424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F89F301DDF111D0065E424 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		41F89F441DDF111D0065E424 /* MHLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F89F431DDF111D0065E424 /* MHLiveTests.m */; };
 		41F89F4F1DDF111D0065E424 /* MHLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F89F4E1DDF111D0065E424 /* MHLiveUITests.m */; };
 		41F89F631DDF14590065E424 /* MhLobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F89F621DDF14590065E424 /* MhLobbyViewController.m */; };
+		A47DE3E62FB209B4E66CB2BF /* libPods-MHLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A2462419A66B2776C6FE2A /* libPods-MHLive.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4195AB0A1DE296F900104A32 /* MhBroadcastRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MhBroadcastRoomViewController.h; sourceTree = "<group>"; };
+		4195AB0B1DE296F900104A32 /* MhBroadcastRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MhBroadcastRoomViewController.m; sourceTree = "<group>"; };
 		41F89F261DDF111D0065E424 /* MHLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F89F2A1DDF111D0065E424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41F89F2C1DDF111D0065E424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +54,9 @@
 		41F89F501DDF111D0065E424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41F89F611DDF14590065E424 /* MhLobbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MhLobbyViewController.h; sourceTree = "<group>"; };
 		41F89F621DDF14590065E424 /* MhLobbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MhLobbyViewController.m; sourceTree = "<group>"; };
+		66D69570338759D2EDE3FEE8 /* Pods-MHLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHLive/Pods-MHLive.debug.xcconfig"; sourceTree = "<group>"; };
+		9CE597CE71E7837C0E948E4C /* Pods-MHLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHLive/Pods-MHLive.release.xcconfig"; sourceTree = "<group>"; };
+		B2A2462419A66B2776C6FE2A /* libPods-MHLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47DE3E62FB209B4E66CB2BF /* libPods-MHLive.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +92,8 @@
 				41F89F421DDF111D0065E424 /* MHLiveTests */,
 				41F89F4D1DDF111D0065E424 /* MHLiveUITests */,
 				41F89F271DDF111D0065E424 /* Products */,
+				6550693F535B196DAEB0EF6B /* Pods */,
+				A2F485156557B95A05D7D376 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +114,13 @@
 				41F89F2D1DDF111D0065E424 /* AppDelegate.m */,
 				41F89F2F1DDF111D0065E424 /* ViewController.h */,
 				41F89F301DDF111D0065E424 /* ViewController.m */,
+				41F89F611DDF14590065E424 /* MhLobbyViewController.h */,
+				41F89F621DDF14590065E424 /* MhLobbyViewController.m */,
+				4195AB0A1DE296F900104A32 /* MhBroadcastRoomViewController.h */,
+				4195AB0B1DE296F900104A32 /* MhBroadcastRoomViewController.m */,
 				41F89F351DDF111D0065E424 /* Assets.xcassets */,
 				41F89F3A1DDF111D0065E424 /* Info.plist */,
 				41F89F291DDF111D0065E424 /* Supporting Files */,
-				41F89F611DDF14590065E424 /* MhLobbyViewController.h */,
-				41F89F621DDF14590065E424 /* MhLobbyViewController.m */,
 			);
 			path = MHLive;
 			sourceTree = "<group>";
@@ -139,6 +151,23 @@
 			path = MHLiveUITests;
 			sourceTree = "<group>";
 		};
+		6550693F535B196DAEB0EF6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66D69570338759D2EDE3FEE8 /* Pods-MHLive.debug.xcconfig */,
+				9CE597CE71E7837C0E948E4C /* Pods-MHLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2F485156557B95A05D7D376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2A2462419A66B2776C6FE2A /* libPods-MHLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41F89F531DDF111D0065E424 /* Build configuration list for PBXNativeTarget "MHLive" */;
 			buildPhases = (
+				E725DC6A428E72EEA9632CE4 /* [CP] Check Pods Manifest.lock */,
 				41F89F221DDF111D0065E424 /* Sources */,
 				41F89F231DDF111D0065E424 /* Frameworks */,
 				41F89F241DDF111D0065E424 /* Resources */,
+				E99774A3111A5C47E3385434 /* [CP] Embed Pods Frameworks */,
+				51600FB203E7AEFF77D0D994 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +300,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51600FB203E7AEFF77D0D994 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHLive/Pods-MHLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E725DC6A428E72EEA9632CE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E99774A3111A5C47E3385434 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHLive/Pods-MHLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41F89F221DDF111D0065E424 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +356,7 @@
 				41F89F311DDF111D0065E424 /* ViewController.m in Sources */,
 				41F89F2E1DDF111D0065E424 /* AppDelegate.m in Sources */,
 				41F89F631DDF14590065E424 /* MhLobbyViewController.m in Sources */,
+				4195AB0C1DE296F900104A32 /* MhBroadcastRoomViewController.m in Sources */,
 				41F89F2B1DDF111D0065E424 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +483,7 @@
 		};
 		41F89F541DDF111D0065E424 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D69570338759D2EDE3FEE8 /* Pods-MHLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 39LNNG9D24;
@@ -414,6 +496,7 @@
 		};
 		41F89F551DDF111D0065E424 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE597CE71E7837C0E948E4C /* Pods-MHLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 39LNNG9D24;
@@ -493,6 +576,7 @@
 				41F89F551DDF111D0065E424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F89F561DDF111D0065E424 /* Build configuration list for PBXNativeTarget "MHLiveTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +585,7 @@
 				41F89F581DDF111D0065E424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F89F591DDF111D0065E424 /* Build configuration list for PBXNativeTarget "MHLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +594,7 @@
 				41F89F5B1DDF111D0065E424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
